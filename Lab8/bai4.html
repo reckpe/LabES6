@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    td {
+      padding: 15px;
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+  </style>
+</head>
+
+<body>
+  <script type="module" src="./read.js"></script>
+  <table border=1>
+    <h1>List products</h1>
+    <a href="add.html">Thêm</a>
+  </table>
+
+
+  <script type="module">
+    // import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-database.js";
+    // const db = getDatabase();
+    // console.log(db);
+
+    function vnd(price) {
+      return String(price).replace(/(.)(?=(\d{3})+$)/g, "$1.") + " VNĐ";
+    }
+
+    async function getProducts() {
+      let res = await fetch('https://lab8-6b352-default-rtdb.firebaseio.com/products.json');
+      let data = await res.json();
+      return data;
+    }
+    getProducts().then(data => {
+      renderProducts(data);
+    })
+
+    function renderProducts(data) {
+      Object.keys(data).forEach(key => {
+        const item = data[key];
+        console.log(data);
+        const items = `
+       <tr>
+            <td>${item.productName}</td>
+            <td> ${vnd(item.price)}</td>
+            <td>${item.description}</td>
+            <td ><a href="#" my-key="${key}" id="delete-item">Xóa</a></td>
+          </tr>
+       `
+        document.querySelector('table').innerHTML += items;
+
+        const deleteBtns = document.querySelectorAll('#delete-item');
+        deleteBtns.forEach(btn => {
+          btn.addEventListener('click', () => {
+            const key = btn.getAttribute('my-key');
+            deleteItem(key);          
+          })
+        })
+      })
+    }
+
+
+    function deleteItem(key) {
+      fetch(`https://lab8-6b352-default-rtdb.firebaseio.com/products/${key}.json`, {
+        method: 'DELETE'
+      }).then(res => res.json())
+    }
+  </script>
+
+</body>
+
+</html>

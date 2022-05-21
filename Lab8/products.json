@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Iphone 12 mini",
+      "price": 900,
+      "description": "Iphone 12 mini smartphone was launched on 13th October 2020. The phone comes with great power"
+    },
+    {
+      "id": 2,
+      "productName": "Z-flip 3",
+      "price": 1400,
+      "description": "Modern smarphone"
+    },
+    {
+      "id": 3,
+      "productName": "Vertu",
+      "price": 9999,
+      "description": "Most expensive smartphone"
+    }
+  ]
+}

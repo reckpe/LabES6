@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bài 1</title>
+</head>
+
+<body>
+
+  <script>
+    // từ khóa this trỏ tới 1 đối tượng mà chúng ta đang sử dụng
+
+    const person = {
+      firstName: "Trương",
+      lastName: "Kiên",
+      showFullName() {
+        console.log(this.firstName + " " + this.lastName);
+      }
+      // this ở đây trỏ đến person
+    }
+
+    // nếu ko trỏ về 1 đối tượng nào khác nó sẽ trả về đối tượng window
+    console.log(this);
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bài 2</title>
+</head>
+
+<body>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script>
+    async function fetchUrls(urls) {
+      const results = [];
+      for (const url of urls) {
+        const res = await axios.get(url);
+        results.push(res);
+      }
+    }
+
+    async function fetchUrlsParallel(urls) {
+      const results = await Promise.all(
+        urls.map(function (url) {
+          return axios.get(url);
+        })
+      )
+      return results;
+    }
+  </script>
+</body>
+
+</html>

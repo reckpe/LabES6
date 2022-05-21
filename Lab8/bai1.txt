@@ -1,0 +1,15 @@
+-Firebase là một nền tảng để phát triển ứng dụng di động và trang web, 
+bao gồm các API đơn giản và mạnh mẽ mà không cần backend hay server.
+
+- Ưu điểm:
++ Nhiều dịch vụ trong 1 nền tảng
++ Tốc độ phát triển nhanh
++ Tập trung vào phát triển giao diện người dùng
++ Sao lưu
++ Tạo lưu lượng truy cập
++ Theo dõi
+
+-Nhược điểm:
++ Chỉ hoạt động được với cơ sở dữ liệu NoSql
++ Người dùng không có quyền truy cập mã nguồn
++ Firebase không hoạt động ở nhiều quốc gia

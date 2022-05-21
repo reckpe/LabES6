@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 1</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let multiply = (num1,num2) =>{
+        return num1 * num2;
+    }
+
+    let toCelsius = (fahrenheit) =>{
+        return (5/9) * (fahrenheit - 32);
+    }
+
+    let padZeros = (num,totallen) =>{
+        var numStr = num.toString();
+        var numZeros = totallen - numStr.length;
+        for(var i = 1; i <= numZeros; i++){
+            numStr = "0" + numStr;
+        }
+        return numStr;
+    }
+
+    let power = (base,exponent)=>{
+        var result = 1;
+        for(var i = 0; i < exponent; i++){
+            result *= base;
+        }
+        return result;
+    }
+
+    let greet = (who) =>{
+        console.log("Hello" + who);
+    }
+</script>
+</html>

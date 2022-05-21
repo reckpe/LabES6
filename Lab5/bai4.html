@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bài 4</title>
+</head>
+
+<body>
+  <script>
+    class Person {
+      constructor(firstName, lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+      }
+
+      get fullName() {
+        return `${this.firstName} - ${this.lastName}`;
+      }
+
+      set(newFirstName) {
+        this.firstName = newFirstName;
+      }
+
+      set(newLastName) {
+        this.lastName = newLastName;
+      }
+
+
+    }
+
+    const person = new Person('Albert', 'Einstein');
+    console.log(person.fullName);
+    person.firstName = 'Issac';
+    person.lastName = 'Newton';
+    console.log(person.fullName);
+
+  </script>
+</body>
+
+</html>

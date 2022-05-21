@@ -1,0 +1,177 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Rau"
+    },
+    {
+      "id": 2,
+      "name": "Trái cây"
+    },
+    {
+      "id": 3,
+      "name": "Thịt"
+    },
+    {
+      "id": 4,
+      "name": "Sữa"
+    },
+    {
+      "id": 5,
+      "name": "Đồ ăn nhanh"
+    },
+    {
+      "name": "Hải sản",
+      "id": 6
+    },
+    {
+      "name": "Điện thoại",
+      "id": 7
+    }
+  ],
+  "products": [
+    {
+      "tenSP": "Chuối ngon",
+      "gia": 15000,
+      "images": "product-2.jpg",
+      "moTa": "Quả chuối to và hơi cong giống như hình trăng khuyết. Một nải chuối có hai hàng mọc đều nhau. Khi quả chuối chín vỏ quả dần ngả sang màu vàng nhạt rồi để lâu vỏ quả sẽ chín đậm hơn, lúc này quả chuối mới ngọt lịm làm sao. Vỏ chuối mỏng rất dễ bóc vỏ, những sợi tơ chuối bám vào thành vỏ theo chiều dài của quả.",
+      "idLoai": 2,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "tenSP": "Thịt bò",
+      "moTa": "Thịt bò là thịt của con bò (thông dụng là loại bò thịt). Đây là thực phẩm gia súc phổ biến trên thế giới, cùng với thịt lợn, được chế biến và sử dụng theo nhiều cách, trong nhiều nền văn hoá và tôn giáo khác nhau, cùng với thịt lợn và thịt gà, thịt bò là một trong những loại thịt được con người sử dụng nhiều nhất.",
+      "images": "product-1.jpg",
+      "gia": 56000,
+      "idLoai": 3,
+      "anHien": 1
+    },
+    {
+      "id": 3,
+      "tenSP": "Ổi",
+      "moTa": "Quả ổi tròn, to mọc ra từng chùm. Hạt của nó bé và tập trung vào giữa quả. Quả ổi có mùi thơm, khi ăn vào có vị ngọt. Thỉnh thoảng, có vài chú chim sơn ca hay đến để bắt những con sâu và cất tiếng hót líu lo.",
+      "images": "product-3.jpg",
+      "gia": 25000,
+      "gia_sale": 21000,
+      "idLoai": 2,
+      "anHien": 1
+    },
+    {
+      "id": 4,
+      "tenSP": "Việt quất",
+      "moTa": "Việt quất hay còn được gọi với cái tên Blueberry (tên khoa học là Vaccinium myrtillus) thuộc họ Thạch Nam, sống thành từng bụi và loại cây lâu năm. - Việt quất có hoa màu trắng, hình vuông, còn trái thuộc dạng quả mọng, kết thành chùm, có màu đậm gần như đen với một chút ánh tía, thịt quả có màu đỏ hoặc ngả sang tím.",
+      "images": "product-4.jpg",
+      "gia": 129000,
+      "gia_sale": 115000,
+      "idLoai": 2,
+      "anHien": 1
+    },
+    {
+      "id": 5,
+      "tenSP": "Hamburger",
+      "moTa": "Hamburger (tiếng Việt đọc là hăm-bơ-gơ hay hem-bơ-gơ, phát âm tiếng Anh là /ˈhæmbɜrɡər/) là một loại thức ăn bao gồm bánh mì kẹp thịt xay (thường là thịt bò) ở giữa. Miếng thịt có thể được nướng, chiên, hun khói hay nướng trên lửa. ... Loại bánh hamburger có topping là pho mát được mọi người gọi là hamburger pho mát.",
+      "images": "product-5.jpg",
+      "gia": 50000,
+      "gia_sale": 45000,
+      "idLoai": 5,
+      "anHien": 1
+    },
+    {
+      "id": 6,
+      "tenSP": "Gà rán",
+      "moTa": "Gà rán là một món ăn xuất xứ từ miền Nam Hoa Kỳ; nguyên liệu chính là những miếng thịt gà đã được lăn bột rồi chiên trên chảo, chiên ngập dầu, chiên áp suất hoặc chiên chân không. Lớp bột chiên xù sẽ giúp cho miếng gà có một lớp vỏ ngoài giòn rụm, còn phần thịt bên trong vẫn mềm và mọng nước. Nguyên liệu được sử dụng phổ biến nhất là gà thịt.",
+      "images": "product-10.jpg",
+      "gia": 59000,
+      "idLoai": 5,
+      "anHien": 1
+    },
+    {
+      "id": 7,
+      "tenSP": "Sữa nho khô",
+      "moTa": "Nước ép nho đỏ Juver Tây Ban Nha hộp 1 lít Nước ép 100% từ trái nho đỏ tại nông trang Tây Ban Nha Không chất phụ gia bảo quản Vị chua tự nhiên – Thanh mát",
+      "images": "product-9.jpg",
+      "gia": 40000,
+      "idLoai": 4,
+      "anHien": 1
+    },
+    {
+      "id": 8,
+      "tenSP": "Sữa cam",
+      "moTa": "Sữa tươi tiệt trùng hương cam Mộc Châu được sản xuất hoàn toàn từ nguồn nguyên liệu sữa sạch. Sữa được làm từ 100% sữa bò tươi nguyên chất, giàu các dưỡng chất tự nhiên, tươi ngon và bổ dưỡng. Sử dụng Sữa tươi tiệt trùng hương cam Mộc Châu giúp bổ sung vitamin D và các dưỡng chất khác (vitamin A, C, selen) hỗ trợ miễn dịch, giúp bảo vệ sức khỏe cả gia đình bạn mỗi ngày. Hương vị cam thơm ngon, sản phẩm giúp bổ sung hàm lượng vitamin C đáng kể, đem lại cho bạn cơ thể khỏe mạnh và làn da đầy sức sống.",
+      "images": "product-11.jpg",
+      "gia": 26000,
+      "idLoai": 4,
+      "anHien": 1
+    },
+    {
+      "id": 9,
+      "tenSP": "Sữa trái cây",
+      "moTa": "Trong thành phần sản phẩm, sữa trái cây chứa rất ít sữa. Trên bao bì sữa trái cây thường thể hiện: Nước, đường, sữa (15%), nước trái cây (10%), có một số loại, sữa được dùng trong sữa trái cây là sữa bột, với hàm lượng rất ít. Trong thành phần dinh dưỡng được in bên ngoài hộp sữa trái cây, mỗi sản phẩm với dung tích 180 ml chỉ chứa khoảng hơn 50 Kcal, 0,5 gram chất đạm, 0,2 gram chất béo. Trong khi đó, một hộp sữa tươi có cùng dung tích cung cấp gần 80 Kcal, hơn 3 gram chất đạm và 3,5 gram chất béo. So sánh hai số liệu này, có thể thấy, sữa trái cây không chứa nhiều, thậm chí rất ít thành phần dinh dưỡng chủ yếu của một loại sữa. Như vậy, sữa trái cây không được xem là sữa, mà chỉ là nước giải khát.",
+      "images": "cat-4.jpg",
+      "gia": 34000,
+      "idLoai": 4,
+      "anHien": 1
+    },
+    {
+      "tenSP": "cải bó xôi",
+      "gia": 5000,
+      "images": "thumb-2.jpg",
+      "moTa": "Cải bó xôi, hay còn gọi là rau bina, rau chân vịt được mệnh danh là loại rau giàu dinh dưỡng bậc nhất, có lượng dưỡng chất vitamin áp đảo trong danh sách các loại rau củ quả. Cải bó xôi thường có cuống nhỏ và lá xanh đậm, lá mọc chụm lại ở một gốc bé xíu. Thân và lá dòn, dễ gãy, dập.",
+      "idLoai": 1,
+      "id": 10
+    }
+  ],
+  "orders": [
+    {
+      "name": "Trương Trung Kiên",
+      "address": "e4/089 lê lợi 2 quang trung thống nhất đồng nai",
+      "email": "reckpo123@gmail.com",
+      "phone": "0586561421",
+      "create_date": "2022-02-17",
+      "status": "Chờ xác nhận",
+      "id": 4
+    },
+    {
+      "name": "Trương Trung Kiên",
+      "address": "E4/089 lê lợi 2 quang trung thống nhất đồng nai",
+      "email": "reckpo123@gmail.com",
+      "phone": "0586561421",
+      "create_date": "2022-02-21",
+      "status": "Chờ xác nhận",
+      "id": 5
+    },
+    {
+      "name": "Trương Kiên",
+      "address": "E4/089 lê lợi 2 - QT - TN -DN",
+      "email": "kienttps18183@fpt.edu.vn",
+      "phone": "0586561421",
+      "create_date": "2022-02-24",
+      "status": "Chờ xác nhận",
+      "id": 6
+    }
+  ],
+  "order_details": [
+    {
+      "id": 1,
+      "order_id": 1,
+      "product_id": 3,
+      "quantity": 2,
+      "unti_price": 42000
+    },
+    {
+      "order_id": 3,
+      "product_id": 1,
+      "quantity": 1,
+      "unti_price": 15000,
+      "id": 2
+    },
+    {
+      "order_id": 3,
+      "product_id": 2,
+      "quantity": 1,
+      "unti_price": 56000,
+      "id": 3
+    }
+  ]
+}

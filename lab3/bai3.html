@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 3</title>
+</head>
+
+<body>
+    <h1 class="h1"></h1>
+</body>\
+<script>
+    const Entity = function(name,delay) {
+        this.name = name;
+        this.delay = delay;
+
+        this.greet = () => {
+            setTimeout(() => {
+                console.log('Xin chào, tên tôi là', this.name);
+            }, this.delay);
+        }
+    }
+
+    var K = new Entity('Kiên đẹp zai', 50);
+    var H = new Entity('Hiếu ml', 40);
+
+    K.greet();
+    H.greet();
+</script>
+
+</html>
